@@ -1,0 +1,24 @@
+
+
+
+for the installation with OpenAI:
+pip install langchain
+pip install -qU langchain-openai
+pip install python-dotenv
+pip install -U langchain langchain_experimental
+
+
+
+pip install --user tables
+pip install tabulate
+
+
+For running on Ollama i.e., locally running the LLMs:
+
+
+
+
+
+
+
+
