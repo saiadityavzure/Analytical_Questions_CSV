@@ -6,7 +6,8 @@ from langchain_core.prompts import ChatPromptTemplate
 # supports many more optional parameters. Hover on your `ChatOllama(...)`
 # class to view the latest available supported parameters
 llm = ChatOllama(model="llama3")
-prompt = ChatPromptTemplate.from_template("Tell me a short joke about {topic}")
+topic = "Wild life story"
+prompt = ChatPromptTemplate.from_template(f"Tell me a short joke about {topic}")
 
 # using LangChain Expressive Language chain syntax
 # learn more about the LCEL on
